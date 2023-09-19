@@ -1,0 +1,42 @@
+.container header form {
+    display: none;
+}
+
+.header-bg ul li a {
+    font-size: 0.8rem;
+}
+
+#home .py-5 {
+    padding: 0;
+}
+
+#change-bg-color h1,
+h3 {
+    text-align: center;
+}
+
+#home h1,
+p {
+    text-align: center;
+}
+
+#home #small-hide img {
+    display: none;
+}
+
+.img-set {
+    margin-top: -8rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: Rgb(167, 130, 149);
+}
+
+/* #carouselExampleArrivalsSmallScreen .carousel-control-next-icon ,  #carouselExampleArrivalsSmallScreen  .carousel-control-prev-icon {
+    background-color: white;
+ } */
+
+ #bg-image .justify-content-end {
+    justify-content: center !important;
+}

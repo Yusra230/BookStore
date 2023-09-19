@@ -1,0 +1,1417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <!-- navbar  -->
+
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between justify-content-sm-between justify-content-between py-3 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none h2"
+                id="justify-start">
+                <i class="bi bi-book"></i>
+                BookIsh
+            </a>
+
+            <form class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 w-50">
+                <input type="search" class="form-control" placeholder="Search here..." aria-label="Search"
+                    data-last-active-input="">
+            </form>
+
+            <div class="col-md-3 text-end">
+                <a href="" target="_blank">
+                    <i class="bi bi-heart-fill icon-style"></i></a>
+                <a href="" target="_blank">
+                    <i class="bi bi-cart-fill icon-style"></i></a>
+                <a href="" target="_blank">
+                    <i class="bi bi-person-fill icon-style"></i></a>
+            </div>
+        </header>
+    </div>
+
+    <nav class="d-none d-sm-block">
+        <div class="header-bg">
+            <header class="d-flex justify-content-center py-2">
+                <ul class="nav nav-pills">
+                    <li class="nav-item text-white"><a href="#" class="nav-link text-white" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item "><a href="#features" class="nav-link text-white">Features</a></li>
+                    <li class="nav-item "><a href="#Arrivals" class="nav-link text-white">Arrivals</a></li>
+                    <li class="nav-item "><a href="#reviews" class="nav-link text-white">Reviews</a></li>
+                    <li class="nav-item "><a href="#blogs" class="nav-link text-white">Blogs</a></li>
+                </ul>
+            </header>
+        </div>
+
+    </nav>
+
+    <nav class="d-sm-none">
+        <div class="header-bg fixed-bottom">
+            <header class="d-flex justify-content-center py-2">
+                <ul class="nav nav-pills">
+                    <li class="nav-item text-white"><a href="#" class="nav-link text-white" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item "><a href="#features" class="nav-link text-white">Features</a></li>
+                    <li class="nav-item "><a href="#Arrivals" class="nav-link text-white">Arrivals</a></li>
+                    <li class="nav-item "><a href="#reviews" class="nav-link text-white">Reviews</a></li>
+                    <li class="nav-item "><a href="#blogs" class="nav-link text-white">Blogs</a></li>
+                </ul>
+            </header>
+        </div>
+
+    </nav>
+
+    <section id="home">
+        <div class="container col-xxl-8 py-5">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Upto 75% Off</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore vel optio aliquid iste atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <div
+                        class="d-grid gap-2 d-md-flex justify-content-xl-start justify-content-lg-start justify-content-md-center justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Shop
+                            Now</button>
+
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-8 col-lg-6 books-div d-none d-sm-block">
+                    <div id="carouselExampleLargeScreen" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="image-wrapper img-fluid books"><img src="/book01.png" alt="">
+                                    <img src="/book02.png" alt="">
+                                    <img src="/book03.png" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="image-wrapper img-fluid books"><img src="/book10.jpg" alt="">
+                                    <img src="/book04.png" alt="">
+                                    <img src="/book5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="image-wrapper img-fluid books"><img src="/book06.png" alt="">
+                                    <img src="/book7.jpg" alt="">
+                                    <img src="/book8.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLargeScreen"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleLargeScreen"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <img src="/stand.png" id="small-hide" class="d-block mx-lg-auto img-fluid img-set "
+                        alt="Bootstrap Themes" loading="lazy">
+
+                </div>
+
+                <div id="carouselExample" class="carousel slide d-sm-none">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="image-wrapper img-fluid books"><img src="/book01.png" alt=""></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-wrapper img-fluid books"><img src="/book02.png" alt=""></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-wrapper img-fluid books"><img src="/book03.png" alt=""></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-wrapper img-fluid books"><img src="/book04.png" alt=""></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-wrapper img-fluid books"><img src="/book06.png" alt=""></div>
+                        </div>
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container card-body2">
+            <div id="container">
+                <i class="bi bi-arrow-right icon-style card-icons"></i>
+                <div class="set-mg">
+                    <h3>Free Shipping</h2>
+                        <p>Order Over $100</p>
+                </div>
+            </div>
+
+            <div id="container">
+                <i class="bi bi-lock-fill icon-style card-icons"></i>
+                <div>
+                    <h3>Secure Payment
+                        </h2>
+                        <p> 100 Secure Payment</p>
+                </div>
+            </div>
+
+            <div id="container">
+                <i class="bi bi-arrow-clockwise icon-style card-icons"></i>
+                <div>
+                    <h3>Easy Returns
+                        </h2>
+                        <p> 10 Days Return</p>
+                </div>
+            </div>
+
+            <div id="container">
+                <i class="bi bi-headset icon-style card-icons"></i>
+                <div>
+                    <h3>24/7 Support
+                        </h2>
+                        <p> Call Us Anytime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="features">
+        <h1 class="text-center">Featured Books</h1>
+
+        <div id="carouselExampleFeaturedBooks" class="carousel carousel-dark slide d-none d-sm-block">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book1.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book7.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book8.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book9.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book2.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book3.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book4.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book5.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book6.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book10.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book9.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+
+                        <div class="featured-books">
+                            <img src="/book01.png" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFeaturedBooks"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFeaturedBooks"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleFeaturedBooksSmallScreen" class="carousel slide d-sm-none">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book1.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book7.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book8.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book9.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book2.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book3.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book4.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book5.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2">
+                        <div class="featured-books">
+                            <img src="/book6.jpg" alt="">
+                            <h5 class="change-margin">Featured Books</h5>
+                            <h5>$15.99 <span><del>$20.99</del></span></h5>
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExampleFeaturedBooksSmallScreen" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleFeaturedBooksSmallScreen" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="bg-image">
+        <div class="container d-flex justify-content-end ">
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form class="container">
+                    <h4>Subscribe For Latest Updates</h4>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2" id="change-margin">
+                        <label for="newsletter1" class="visually-hidden ">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control " placeholder="Email address"
+                            fdprocessedid="14wwl1" data-last-active-input="">
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="Arrivals">
+        <h1 class="text-center">New Arrivals</h1>
+
+        <div id="carouselExampleArrivals" class="carousel carousel-dark slide d-none d-sm-block">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book04.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book5.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book6.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book7.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book8.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book9.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book01.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book2.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book3.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book04.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book10.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="book02.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleArrivals"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleArrivals"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleArrivalsSmallScreen" class="carousel slide d-sm-none">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book04.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book5.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book01.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book02.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book03.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book06.png" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book7.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book8.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="container2">
+                            <img src="book9.jpg" alt="">
+                            <div class="set-mg set-padding">
+                                <h5>New Arrivals</h5>
+                                <h5>$15.99 <span><del>$20.99</del></span></h5>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleArrivalsSmallScreen"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleArrivalsSmallScreen"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="change-bg-color">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="deal.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Deal of the Day</h3>
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Upto 50% Off</h1>
+                    <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                        world most popular front-end open source toolkit.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="b57l8r">Shop
+                            Now</button>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="reviews">
+        <h1 class="text-center">Clients Reviews</h1>
+
+        <div id="carouselExampleClients" class="carousel carousel-dark slide d-none d-sm-block">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client1.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client2.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client3.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic1.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic2.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic5.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleClients"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleClients"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleClientsSmallScreen" class="carousel slide d-sm-none">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client1.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client2.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="client3.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic1.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic2.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="featured-books set-cards">
+                            <img class="rounded-circle" src="pic5.png" alt="">
+                            <h5 class="change-margin">John Deo</h5>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed
+                                facere facilis
+                                laudantium tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleClientsSmallScreen"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleClientsSmallScreen"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="blogs">
+        <!-- blogs -->
+        <h1 class="text-center">Our Blogs</h1>
+
+        <div id="carouselExampleBlogs" class="carousel carousel-dark slide d-none d-sm-block">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleBlogs"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleBlogs"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleBlogsSmallScreen" class="carousel slide d-sm-none">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container card-body2 set-margin">
+                        <div class="card" style="width: 22rem;">
+                            <img src="/blogs4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blog title goes here </h5>
+                                <p class="card-text text-start">Some quick example text to build on the card title and
+                                    make up the
+                                    bulk of the
+                                    card's content.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleBlogsSmallScreen"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleBlogsSmallScreen"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Pur Locations</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-geo-alt-fill"></i>India</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-geo-alt-fill"></i>USA</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-geo-alt-fill"></i>Russia</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><i
+                                    class="bi bi-geo-alt-fill"></i>France</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-geo-alt-fill"></i>Japan</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Home</a></li>
+                        <li class="nav-item mb-2"><a href="#features" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Features</a></li>
+                        <li class="nav-item mb-2"><a href="#Arrivals" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Arrivals</a></li>
+                        <li class="nav-item mb-2"><a href="#reviews" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Reviews</a></li>
+                        <li class="nav-item mb-2"><a href="#blogs" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Blogs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Account Info</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><i
+                                    class="bi bi-arrow-right"></i>Ordered Items</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Privacy
+                                Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "><i
+                                    class="bi bi-arrow-right"></i>Payment
+                                Method</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><i class="bi bi-arrow-right"></i>Our
+                                Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
+                                fdprocessedid="z8tu4j">
+                            <button class="btn btn-primary" type="button" fdprocessedid="c3n02o">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2023 Yusra, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/profile.php?id=100087329830889" target="_blank"> <i class="bi bi-facebook"></i>
+                        </a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://instagram.com/its._.me._.yusra?utm_source=qr&igshid=OGIxMTE0OTdkZA==" target="_blank"> <i class="bi bi-instagram"></i>
+                        </a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/in/yusra-tariq-6868b7262" target="_blank"> <i class="bi bi-linkedin"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

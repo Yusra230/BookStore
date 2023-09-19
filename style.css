@@ -1,0 +1,292 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    color: Rgb(51, 29, 44);
+}
+
+header i {
+    margin-right: 0.3rem;
+}
+
+.icon-style {
+    color: Rgb(51, 29, 44);
+    font-size: 2rem;
+    margin: 0rem 0.4rem;
+
+}
+
+.icon-style:hover {
+    color: Rgb(167, 130, 149);
+}
+
+header li a:hover {
+    color: Rgb(167, 130, 149);
+    border-bottom: 2px solid Rgb(167, 130, 149);
+}
+
+.header-bg {
+    background-color: Rgb(51, 29, 44);
+}
+
+#home {
+    /* border: 2px solid red; */
+    background: url('/Fresh\ White\ Brick\ Face\ Poster\ Banner\ Background\,\ Fresh\,\ White\,\ Brick\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg') center center /cover;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 10px solid Rgb(156,88,38); */
+
+
+}
+
+.books img {
+    height: 15rem;
+    box-shadow: 5px 5px 30px grey;
+    transition: all;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.books img:hover {
+    transform: scale(0.9);
+}
+
+.books-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .carousel-control-next,
+.carousel-control-prev {
+    background-color: Rgb(167, 130, 149);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.carousel-control-prev {
+    transform: translate(50%);
+
+} */
+
+.img-set {
+    width: 50rem;
+    margin-top: -15rem;
+}
+
+p {
+    color: Rgb(167, 130, 149);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#home h1 {
+    color: Rgb(51, 29, 44);
+}
+
+.btn-primary {
+    background-color: Rgb(167, 130, 149);
+    border: transparent;
+}
+
+.btn-primary:hover {
+    background-color: Rgb(51, 29, 44);
+}
+
+.card-body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.card-icons {
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+#features h1 {
+   padding-top: 3rem;
+}
+
+.featured-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid rgb(207, 197, 197);
+    padding: 1rem 3rem;
+    margin: 0 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.featured-books:hover {
+    border: 1px solid black;
+}
+
+.featured-books img {
+    height: 15rem;
+}
+
+.featured-books .change-margin {
+    margin: 1rem 0;
+}
+
+.featured-books h5 {
+    margin-bottom: 1rem;
+}
+
+span del {
+    color: Rgb(167, 130, 149);
+    font-size: 1rem;
+}
+
+#bg-image {
+    background: url('letter.jpg') center center /cover fixed;
+}
+
+#bg-image form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#bg-image .justify-content-end {
+    /* border: 2px solid red; */
+    padding: 5rem 0;
+}
+
+#change-margin {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+#Arrivals img {
+    height: 10rem;
+}
+
+.container2 {
+    border: 0.1px solid rgb(207, 197, 197);
+    padding: 1rem 1rem;
+    margin: 1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.set-padding {
+    padding-right: 5rem;
+    padding-left: 1rem;
+}
+
+.set-margin {
+    margin-top: 0;
+}
+
+#Arrivals h1 {
+    padding: 3rem 0;
+}
+
+#change-bg-color {
+    background-color: Rgb(243, 243, 243);
+}
+
+.set-cards {
+    height: 22rem;
+    width: 22rem;
+    margin-bottom: 1rem;
+}
+
+.set-cards:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.set-cards p {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.set-cards img {
+    height: 7rem;
+    width: 7rem;
+}
+
+#reviews h1 {
+    padding: 3rem 0;
+}
+
+#blogs h1 {
+    padding: 3rem 0;
+
+}
+
+.card-body p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card {
+    margin: 1rem 0.5rem;
+    transition: all;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(0.99);
+    border: 1px solid black;
+}
+
+.flex-column li a {
+    color: Rgb(51, 29, 44);
+    transition: all;
+}
+
+.flex-column li a:hover {
+    color: Rgb(51, 29, 44);
+    transform: translateX(12px);
+}
+
+.flex-column li i {
+    color: black;
+    font-size: 1.1rem;
+    padding-right: 0.3rem;
+}
+
+.d-flex li i {
+    font-size: 1.5rem;
+}
+
+.d-flex li i:hover {
+    color: Rgb(167, 130, 149);
+}
+
