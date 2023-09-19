@@ -1,2 +1,2 @@
 # BookStore
-My first Ecommerce Website
+My first Book Store Website
